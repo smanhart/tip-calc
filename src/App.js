@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Form from './Form.js'
+
 
 function App() {
   return (
@@ -9,11 +11,7 @@ function App() {
           Tip Calculator
         </p>
       </header>
-      //bill input
-      //tip percentage
-      //split tip
-        //num people
-      //calculated amount
+      <Form />
     </div>
   );
 }
